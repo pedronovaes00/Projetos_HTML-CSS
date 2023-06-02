@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+span {
+    color: rgb(180, 126, 46);
+    font-weight: 500;
+}
+
+nav {
+
+    margin-right: 150px;
+}
+
+
+.logo:hover {
+    font-weight: 400;
+}
+
+.logo {
+    font-size: 35px;
+    color: white;
+    user-select: none;
+    font-weight: 300;
+    transition: 0.10s ease-in;
+
+}
+
+.navigation a:hover {
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.navigation a {
+    position: static;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    font-weight: 300;
+    transition: 0.5s ease;
+    justify-content: space-between;
+}
+
+
+
+.btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background-color: white;
+    color: black;
+}
+
+/*
+.navigation  a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation  a::after{
+content: '';
+position: absolute;
+width: 100%;
+left: 0;
+bottom: -6px;
+height: 3px;
+background-color: white;
+border-radius: 5px;
+transform: scaleX(0);
+transition:.5s;
+transform-origin: right;
+}
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 115vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.893), rgba(0, 0, 0, 0.402)), url(/img/pexels-vlada-karpovich-7025515.jpg );
+    background-size: cover;
+    background-position: center;
+
+}
+
+section {
+
+    position: absolute;
+    margin-bottom: 250px;
+    margin-left: 10px;
+
+}
+
+section h2 {
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 55px;
+
+}
+
+section p {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+.h22 {
+    font-size: 70px;
+}
+
+.btn-leitura {
+    width: 150px;
+    height: 40px;
+    margin-left: 45px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(181, 141, 81);
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn-leitura:hover {
+    background-color: white;
+    border: white solid 1px;
+    font-size: 15px;
+    color: black;
+}
+
+.btn-comeceaqui {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    font-weight: 500;
+    color: white;
+    border-radius: 7px;
+    border: white solid 1px;
+    transition: 0.5s;
+
+}
+
+.btn-comeceaqui:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
+    border: none;
+    font-size: 15px;
+
+}
+
+.btns {
+    margin-top: 25px;
+    text-align: center;
+}
+
+footer {
+    position: static;
+    margin-top: auto;
+    margin-bottom: 10px;
+    height: 127px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.893), rgba(0, 0, 0, 0.125));
+}
+
+.btn-email {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    font-weight: 500;
+    color: rgb(180, 126, 46);
+    border-radius: 12px;
+    border: solid 1px;
+    transition: 0.5s;
+    margin-left: -10px;
+}
+
+.btn-email:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 126, 46);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer div input {
+    width: 170px;
+    height: 43px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+    border: solid 1px rgb(55, 55, 55);
+    margin-left: 50px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: none;
+    border-radius: 12px 0 0 12px;
+    padding-right: 22px;
+
+}
+
+
+.email-camp {
+    margin-top: 10px;
+    float: right;
+    margin-right: 65px;
+    color: white;
+    text-align: left;
+    font-size: 10px;
+
+}
+
+
+
+.email-camp h1 {
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+.email-camp input {
+    margin-top: 30px;
+}
+
+.logodiv {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    
+
+}
+
+.conteudofooter h2 {
+    
+}
+
+.conteudofooter {
+    padding-right: 1000px;
+    font-size: 6px;
+    text-align: center;
+
+}
+
+
+.sobrenos h2{
+    color: white;
+    
+}
+
+.rede-logo {
+    padding-top: 25px;
+    transition: 0.5s;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.buttons{
+    margin-top: 12px;
+}
+
+.btn-tw {
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-tw:hover {
+    color: rgb(44, 209, 255);
+}
+
+.btn-insta {
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-insta:hover {
+    color: rgb(196, 66, 118);
+}
+
+.btn-face {
+
+    width: 60px;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-face:hover {
+    color: rgb(54, 54, 238);
+}
